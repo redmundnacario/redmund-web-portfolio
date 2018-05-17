@@ -1,0 +1,493 @@
+<?php include 'partials/head.php'; ?>
+<body>
+
+	<main >
+
+		<div class = "row parallax front"  style="background-image: url('assets/img/pic2.jpeg')">
+
+            <div class="cover" id="front">
+                <?php include './partials/navbar.php'; ?>
+                
+                
+                    <div class="banner-con">
+                        
+                        <div class="banner typewriter">
+                           <!--  <h1 class="banner-txt">Hi, I'm <strong>Red</strong>.</h1>
+                            <h1 class="banner-txt">I'm a <strong class="type-me">Full Stack Web Developer</strong>.</h1> -->
+                            <h1 class="banner-txt">Hi, I'm <strong>Redmund</strong>!</h1>
+                            <h1 class="banner-txt">
+                                <a href="" class="typewrite" data-period="2000" data-type='[ "I am a Full Stack Web Developer.", "I eat codes for breakfast.", "I love to create websites"]'>
+                                <span class="wrap"></span>
+                                </a>
+                            </h1>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+		</div>
+
+		<!-- <div class="skills row div-shrink front" id="skills">
+			
+            <h1 class="project-header text-center">Skills</h1>
+            <div class="skill-col2 col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <img class="img-responsive img-logo"src="assets/img/logo/html.png">
+                <img class="img-responsive img-logo"src="assets/img/logo/css.png">
+                <img class="img-responsive img-logo"src="assets/img/logo/javascript.png">
+                <img class="img-responsive img-logo"src="assets/img/logo/bootstrap.png">
+                
+
+                <img class="img-responsive img-logo"src="assets/img/logo/jquery.jpg">
+                <img class="img-responsive img-logo"src="assets/img/logo/php.png">
+                <img class="img-responsive img-logo"src="assets/img/logo/mysql.png">
+                <img class="img-responsive img-logo"src="assets/img/logo/laravel2.png">
+            </div>
+
+			<div class="skill-col1 chart-container col-lg-4 col-md-4 col-sm-4 col-xs-12">
+				<canvas class="container container-fluid img-responsive" id="myChart"></canvas>
+
+			</div> 
+		</div> -->
+        <div class="row about" id="skills">
+            <div class="div-shrink about-in div-center">
+                <div class="row">
+
+                    <div class="container-fluid col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="well text-center">
+
+                            <img src="assets/img/icon/front.png" class="img-responsive div-center">
+                            <h1>Front-End</h1>
+                            <p>Website layouts, and basic design.</p>
+                            <p>Languages include HTML, CSS, JavaScript & Jquery.</p>
+                        </div>
+                    </div>
+
+                    <div class="container-fluid col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
+                        <div class="well text-center">
+                            <img src="assets/img/icon/back.png" class="img-responsive div-center">
+                            <h1>Back-End</h1>
+                            <p>Database Design such as MySQL & NoSQL.</p>
+                            <p>Languages include PHP & Python, & Laravel framework.</p>
+                        </div>
+                    </div>
+
+                    <div class="container-fluid col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
+                        <div class="well text-center">
+                            <img src="assets/img/icon/data.png" class="img-responsive div-center">
+                            <h1>Data Visuals</h1>
+
+                            <p>Data Visualization such as charts, & maps. </p>
+
+                        </div>
+                    </div>
+                    
+
+                    
+                    
+                    
+                   
+                </div>
+
+                <!-- <div class="chart-container-parent col-lg-6 col-md-6 col-sm-12 col-xs-12">
+
+                    <div class="chart-container" style="position: relative; ">
+                        <canvas id="myChart" width="800" height="800"></canvas>
+                    </div>
+                </div> -->
+
+
+            </div>
+
+        </div>
+		
+
+
+		<div class=" parallax project row front" id="project">
+			
+            <div class="div-shrink2 container-fluid">
+
+                <div class="row row-project">
+                    <a class=" container-fluid col-lg-6 div-right" href="https://redmundnacario.github.io/b3nc-nacario-redmund/csp01-02">
+                        <div class=" img-project" style="background-image: url('assets/img/csp1.png')" ></div></a>
+                    <div class="col-lg-6 banner-proj">
+                        <div class="banner-proj-in">
+                            <h1 class="project-head-text">Phi|Rad</h1>
+                            <p class="project-content-text">Everything under the Radar</p>
+                            <ul class="project-skills">
+                                
+                                <li>HTML & CSS</li>
+                                <li>Bootstrap</li>
+                                <li>MDB</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+                
+                <div class="row row-project">
+                    <a class="col-lg-6 div-right" href="https://rednacky.000webhostapp.com">
+                        <div class="img-project" style="background-image: url('assets/img/csp2.png')" ></div>
+                    </a>
+                    <div class="col-lg-6 banner-proj">
+                        <div class="banner-proj-in">
+                            <h1 class="project-head-text">HoneyKen</h1>
+                            <p class="project-content-text">Online shop of e.l.f & Colourpop Make-ups</p>
+                            <ul class="project-skills">
+                                <li>HTML & CSS</li>
+                                <li>Bootstrap</li>
+                                <li>JavaScript</li>
+                                <li>JQuery</li>
+                                <li>PHP</li>
+                                <li>MySQL</li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="row row-project">
+                    <a class="col-lg-6 div-right" href="https://rednacario18.000webhostapp.com/"><div class="img-project" style="background-image: url('assets/img/csp3.png')" ></div>
+                    </a>
+                    <div class="col-lg-6 banner-proj">
+                        <div class="banner-proj-in">
+                            <h1 class="project-head-text">GraphSat</h1>
+                            <p class="project-content-text">A web portal of Daily Weather Updates in the Philippines</p>
+                            <ul class="project-skills">
+                                <li>HTML & CSS</li>
+                                <li>Bootstrap</li>
+                                <li>JavaScript</li>
+                                <li>JQuery</li>
+                                <li>PHP</li>
+                                <li>MySQL</li>
+                                <li>Laravel</li>
+                            </ul>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+			
+		</div>
+
+ <!--            <div class="contact-col2 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <form method="POST" action="assets/authenticate.php" class="form-horizontal">
+                 
+                    <div class="form-group">
+                        <label for="fullname" class="col-sm-2 col-form-label">Fullname</label>
+                        <div class="col-sm-10">
+                            <input type="text" name="fullname" id="fullname" class="form-control" placeholder="" required>
+                        </div>
+                    </div>
+
+                     <div class="form-group">
+                        <label for="company" class="col-sm-2 col-form-label">Company
+                        </label>
+                        <div class="col-sm-10">
+                             <input type="text" name="company" id="company" class="form-control" placeholder="" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                             <input type="email" name="email" id="email" class="form-control" placeholder="" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="example-text-input" class="col-sm-2 col-form-label">Message</label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control" name="description" placeholder="Input your message here" rows=5></textarea required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+
+                    
+                </form> 
+                
+            </div> -->
+
+
+	</main>
+    <footer class="row">
+        <div class="contact">
+            <div class="contact-col1 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <p class="text-center">Know more about me.</p>
+                    <!-- <img class="red-img" src="assets/img/red.jpg"> -->
+                    <p class="text-center text-size-medium" id="contact">Email me at <strong>redmund.nacario@gmail.com</strong>.</p>
+
+                    <div class="text-center links">
+
+                        <a href="https://www.facebook.com/redmund.nacario" class="fa fa-facebook-square footer-icon"></a>
+                        <a href="https://www.linkedin.com/in/redmund-nacario/" class="fa fa-linkedin footer-icon"></a>
+                        <a href="https://github.com/redmundnacario" class="fa fa-github footer-icon"></a>
+                        <a href="https://gitlab.com/redmund.nacario" class="fa fa-gitlab footer-icon"></a>
+ 
+                    </div>
+
+                    <div class="text-center ">
+                        <p class="text-size-small">Copyright &copy; 2018 by Redmund Nacario</p>
+                    </div>
+                    
+                </div>
+        </div>
+    </footer>
+
+	<?php //include './partials/footnote.php' ?>
+<?php include './partials/foot.php' ?>
+</body>
+<script>
+// Particle js
+particlesJS('front',{
+  "particles": {
+    "number": {
+      "value": 160,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    },
+    "color": {
+      "value": "#ffffff"
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 1,
+      "random": true,
+      "anim": {
+        "enable": true,
+        "speed": 1,
+        "opacity_min": 0,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 3,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 4,
+        "size_min": 0.3,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": false,
+      "distance": 150,
+      "color": "#ffffff",
+      "opacity": 0.4,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 1,
+      "direction": "none",
+      "random": true,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 600
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "bubble"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "repulse"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 400,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 250,
+        "size": 0,
+        "duration": 2,
+        "opacity": 0,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 400,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+});
+
+// For typewriter
+var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+TxtType.prototype.tick = function() {
+    var i = this.loopNum % this.toRotate.length;
+    var fullTxt = this.toRotate[i];
+
+    if (this.isDeleting) {
+    this.txt = fullTxt.substring(0, this.txt.length - 1);
+    } else {
+    this.txt = fullTxt.substring(0, this.txt.length + 1);
+    }
+
+    this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+    var that = this;
+    var delta = 200 - Math.random() * 100;
+
+    if (this.isDeleting) { delta /= 2; }
+
+    if (!this.isDeleting && this.txt === fullTxt) {
+    delta = this.period;
+    this.isDeleting = true;
+    } else if (this.isDeleting && this.txt === '') {
+    this.isDeleting = false;
+    this.loopNum++;
+    delta = 500;
+    }
+
+    setTimeout(function() {
+    that.tick();
+    }, delta);
+};
+
+window.onload = function() {
+    var elements = document.getElementsByClassName('typewrite');
+    for (var i=0; i<elements.length; i++) {
+        var toRotate = elements[i].getAttribute('data-type');
+        var period = elements[i].getAttribute('data-period');
+        if (toRotate) {
+          new TxtType(elements[i], JSON.parse(toRotate), period);
+        }
+    }
+    // INJECT CSS
+    var css = document.createElement("style");
+    css.type = "text/css";
+    css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+    document.body.appendChild(css);
+};
+
+//  For Graph
+var ctx = document.getElementById("myChart").getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'horizontalBar',
+    data: {
+        labels: ["HTML5", "CSS", "Bootstrap", "Javascript", "Jquery", "PHP", "MySQL","Laravel"],
+        datasets: [{
+            data: [8, 7, 7, 8, 8, 9.5, 9.5, 7],
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)'
+            ],
+            borderColor: [
+                'rgba(255,99,132,1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        legend: {
+            display: false,
+        },
+        scales: {
+            yAxes: [{
+                display: true,
+                scaleLabel: {
+                    display: true,
+                    labelString: 'Skills'
+                },
+                gridLines: {
+                    display:false
+                }
+            }],
+            xAxes: [{
+                ticks: {
+                    beginAtZero:false,
+                    min:5,
+                    max:10
+                },
+                scaleLabel: {
+                    display: true,
+                    labelString: 'Level [ 0 - 10 ]'
+                },
+                gridLines: {
+                    display:false
+                }
+            }]
+        },
+        title: {
+            display: true,
+            text: 'Mastery Level'
+        }
+    }
+});
+myChart.reDraw();
+// Chart.defaults.global.responsive = true;
+</script>
+
+
+</html>
