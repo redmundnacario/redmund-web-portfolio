@@ -1,4 +1,25 @@
-<?php include 'partials/head.php'; ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+	<title>redmund-nacario</title>
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="assets/css/fontawesome/css/fontawesome.min.css"> -->
+	
+	<!-- import bootstrap css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+
+	<!-- import css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- Google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Prompt|Oswald" rel="stylesheet">
+</head>
 <body>
 
 	<main >
@@ -6,7 +27,38 @@
 		<div class = "row parallax front"  style="background-image: url('assets/img/pic2.jpeg')">
 
             <div class="cover" id="front">
-                <?php include './partials/navbar.php'; ?>
+                
+                <!-- NAVBAR -->
+                <nav class="navbar">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="">REDNACKY</a>
+                            
+                        </div>
+                
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <!--  <ul class="nav navbar-nav">
+                                <li class="active"></li>
+                            </ul> -->
+                
+                            <ul class="nav navbar-nav navbar-right">
+                
+                                <li><a href="#skills">SKILLS</a></li>
+                                <li><a href="#project">PROJECTS</a></li>
+                                <li><a href="#contact">CONTACT</a></li>
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                    </div><!-- /.container-fluid -->
+                </nav>
+                <!-- END of NAVBAR -->
                 
                 
                     <div class="banner-con">
@@ -219,7 +271,9 @@
             </div> -->
 
 
-	</main>
+    </main>
+    
+    <!-- FOOTNOTE -->
     <footer class="row">
         <div class="contact">
             <div class="contact-col1 col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -244,9 +298,24 @@
         </div>
     </footer>
 
-	<?php //include './partials/footnote.php' ?>
-<?php include './partials/foot.php' ?>
+    
+<!-- FOOT -->
+<!-- imports jquery -->
+<!-- <script type="text/javascript" src="assets/lib/jquery-3.2.1.min.js"></script> -->
+
+<!-- imports bootstrap.js -->
+<script type="text/javascript" src="assets/css/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+<!-- imports custom javascript -->
+<!-- <script type="text/javascript" src="assets/js/script.js"></script> -->
+
+<!-- import chart.js -->
+<!-- <script type="text/javascript" src="assets/js/chart.bundle.js"></script> -->
+
+<!-- Particle js -->
+<script type="text/javascript" src="assets/js/particles.js-master/particles.js"></script>
 </body>
+
 <script>
 // Particle js
 particlesJS('front',{
@@ -419,74 +488,75 @@ window.onload = function() {
 };
 
 //  For Graph
-var ctx = document.getElementById("myChart").getContext('2d');
-var myChart = new Chart(ctx, {
-    type: 'horizontalBar',
-    data: {
-        labels: ["HTML5", "CSS", "Bootstrap", "Javascript", "Jquery", "PHP", "MySQL","Laravel"],
-        datasets: [{
-            data: [8, 7, 7, 8, 8, 9.5, 9.5, 7],
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)'
-            ],
-            borderColor: [
-                'rgba(255,99,132,1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
-            ],
-            borderWidth: 1
-        }]
-    },
-    options: {
-        legend: {
-            display: false,
-        },
-        scales: {
-            yAxes: [{
-                display: true,
-                scaleLabel: {
-                    display: true,
-                    labelString: 'Skills'
-                },
-                gridLines: {
-                    display:false
-                }
-            }],
-            xAxes: [{
-                ticks: {
-                    beginAtZero:false,
-                    min:5,
-                    max:10
-                },
-                scaleLabel: {
-                    display: true,
-                    labelString: 'Level [ 0 - 10 ]'
-                },
-                gridLines: {
-                    display:false
-                }
-            }]
-        },
-        title: {
-            display: true,
-            text: 'Mastery Level'
-        }
-    }
-});
-myChart.reDraw();
-// Chart.defaults.global.responsive = true;
+// var ctx = document.getElementById("myChart").getContext('2d');
+// var myChart = new Chart(ctx, {
+//     type: 'horizontalBar',
+//     data: {
+//         labels: ["HTML5", "CSS", "Bootstrap", "Javascript", "Jquery", "PHP", "MySQL","Laravel"],
+//         datasets: [{
+//             data: [8, 7, 7, 8, 8, 9.5, 9.5, 7],
+//             backgroundColor: [
+//                 'rgba(255, 99, 132, 0.2)',
+//                 'rgba(54, 162, 235, 0.2)',
+//                 'rgba(255, 206, 86, 0.2)',
+//                 'rgba(75, 192, 192, 0.2)',
+//                 'rgba(153, 102, 255, 0.2)',
+//                 'rgba(255, 159, 64, 0.2)',
+//                 'rgba(153, 102, 255, 0.2)',
+//                 'rgba(255, 159, 64, 0.2)'
+//             ],
+//             borderColor: [
+//                 'rgba(255,99,132,1)',
+//                 'rgba(54, 162, 235, 1)',
+//                 'rgba(255, 206, 86, 1)',
+//                 'rgba(75, 192, 192, 1)',
+//                 'rgba(153, 102, 255, 1)',
+//                 'rgba(255, 159, 64, 1)',
+//                 'rgba(153, 102, 255, 1)',
+//                 'rgba(255, 159, 64, 1)'
+//             ],
+//             borderWidth: 1
+//         }]
+//     },
+//     options: {
+//         legend: {
+//             display: false,
+//         },
+//         scales: {
+//             yAxes: [{
+//                 display: true,
+//                 scaleLabel: {
+//                     display: true,
+//                     labelString: 'Skills'
+//                 },
+//                 gridLines: {
+//                     display:false
+//                 }
+//             }],
+//             xAxes: [{
+//                 ticks: {
+//                     beginAtZero:false,
+//                     min:5,
+//                     max:10
+//                 },
+//                 scaleLabel: {
+//                     display: true,
+//                     labelString: 'Level [ 0 - 10 ]'
+//                 },
+//                 gridLines: {
+//                     display:false
+//                 }
+//             }]
+//         },
+//         title: {
+//             display: true,
+//             text: 'Mastery Level'
+//         }
+//     }
+// });
+
+// //myChart.reDraw();
+// //Chart.defaults.global.responsive = true;
 </script>
 
 
